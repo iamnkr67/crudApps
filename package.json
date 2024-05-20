@@ -1,4 +1,13 @@
 {
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "CRUD App",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
@@ -7,14 +16,5 @@
     "mongoose": "^8.4.0",
     "multer": "^1.4.5-lts.1"
   },
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "name": "crud_app",
-  "description": "��#\u0000 \u0000c\u0000r\u0000u\u0000d\u0000A\u0000p\u0000p\u0000s\u0000\r\u0000 \u0000",
-  "version": "1.0.0",
-  "main": "server.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": []
 }
